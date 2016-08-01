@@ -20,48 +20,48 @@ The photo gallery includes basic HTML markup for displaying images.
    <div class="fg-listItem">
       <div style="overflow: hidden; border-color: rgb(189, 195, 199); padding: 3px; background-color: rgb(245, 245, 245);">
          <div class="fg-thumbnail-container" style="height: 190px; overflow: hidden;">
-            <img class="fg-thumb" src="https://www.solodev.com/assets/fancy/travel2.jpg" alt="" style="display: block; max-width: none; height: 190px; opacity: 1;">
+            <img class="fg-thumb" src="images/travel2.jpg" alt="" style="display: block; max-width: none; height: 190px; opacity: 1;">
          </div>
          <div class="fg-title fg-title-outside" style="color: rgb(44, 62, 80); width: 100%; display: none; background: rgb(245, 245, 245);">
          </div>
       </div>
-      <img src="https://www.solodev.com/assets/fancy/shadow.png" class="fg-shadow">
+      <img src="images/shadow.png" class="fg-shadow">
    </div>
 </div>
 <div class="col-md-3">
    <div class="fg-listItem">
       <div style="overflow: hidden; border-color: rgb(189, 195, 199); padding: 3px; background-color: rgb(245, 245, 245);">
          <div class="fg-thumbnail-container" style="height: 190px; overflow: hidden;">
-            <img class="fg-thumb" src="https://www.solodev.com/assets/fancy/travel3.jpg" alt="" style="display: block; max-width: none; height: 190px; opacity: 1;">
+            <img class="fg-thumb" src="images/travel3.jpg" alt="" style="display: block; max-width: none; height: 190px; opacity: 1;">
          </div>
          <div class="fg-title fg-title-outside" style="color: rgb(44, 62, 80); width: 100%; display: none; background: rgb(245, 245, 245);">
          </div>
       </div>
-      <img src="https://www.solodev.com/assets/fancy/shadow.png" class="fg-shadow">
+      <img src="images/shadow.png" class="fg-shadow">
    </div>
 </div>
 <div class="col-md-3">
    <div class="fg-listItem">
       <div style="overflow: hidden; border-color: rgb(189, 195, 199); padding: 3px; background-color: rgb(245, 245, 245);">
          <div class="fg-thumbnail-container" style="height: 190px; overflow: hidden;">
-            <img class="fg-thumb" src="https://www.solodev.com/assets/fancy/travel4.jpg" alt="" style="display: block; max-width: none; height: 190px; opacity: 1;">
+            <img class="fg-thumb" src="images/travel4.jpg" alt="" style="display: block; max-width: none; height: 190px; opacity: 1;">
          </div>
          <div class="fg-title fg-title-outside" style="color: rgb(44, 62, 80); width: 100%; display: none; background: rgb(245, 245, 245);">
          </div>
       </div>
-      <img src="https://www.solodev.com/assets/fancy/shadow.png" class="fg-shadow">
+      <img src="images/shadow.png" class="fg-shadow">
    </div>
 </div>
 <div class="col-md-3">
    <div class="fg-listItem">
       <div style="overflow: hidden; border-color: rgb(189, 195, 199); padding: 3px; background-color: rgb(245, 245, 245);">
          <div class="fg-thumbnail-container" style="height: 190px; overflow: hidden;">
-            <img class="fg-thumb" src="https://www.solodev.com/assets/fancy/travel5.jpg" alt="" style="display: block; max-width: none; height: 190px; opacity: 1;">
+            <img class="fg-thumb" src="images/travel5.jpg" alt="" style="display: block; max-width: none; height: 190px; opacity: 1;">
          </div>
          <div class="fg-title fg-title-outside" style="color: rgb(44, 62, 80); width: 100%; display: none; background: rgb(245, 245, 245);">
          </div>
       </div>
-      <img src="https://www.solodev.com/assets/fancy/shadow.png" class="fg-shadow">
+      <img src="images/shadow.png" class="fg-shadow">
    </div>
 </div>
 </div>
@@ -72,7 +72,7 @@ All necessary CSS is in photo-gallery.css
 
 ## JavaScript
 
-JavaScript (jQuery) to add effects to the photo gallery is stored in photo-gallery.js
+JavaScript (jQuery) to add effects to the photo gallery is stored inside <script> tags inside photo-gallery.html
 ```
 $('#imagesContainer').fancygallery({
    navigation: 'pagination', 
@@ -94,5 +94,4 @@ $('#imagesContainer').fancygallery({
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="photo-gallery.js."></script>
 ```
