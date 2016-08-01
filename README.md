@@ -1,5 +1,5 @@
 # photo-gallery
-Graphics have taken on an increasingly central role to online content and the need for interactive and beautifully designed photo galleries has never been more prevalent. In this article we will show you how to build a photo gallery for your website either using pure HTML, CSS, and JavaScript or by using the Solodev Templating Language.
+Graphics have taken on an increasingly central role to online content and the need for interactive and beautifully designed photo galleries has never been more prevalent. The following code can be used to build a photo gallery for your website.
 
 ## Tutorial
 
